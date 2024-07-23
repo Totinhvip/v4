@@ -42,7 +42,7 @@ spawn(function()
         end
     end
 end)
-local Tweento = loadstring(game:HttpGet("https://raw.githubusercontent.com/Totinhvip/huhu/master/tween.lua"))()
+local Tweento = loadstring(game:HttpGet("https://raw.githubusercontent.com/Totinhvip/v4/main/tween.lua"))()
 
 ClaimQuestV3()
 spawn(function()
@@ -246,7 +246,7 @@ function EnableBuso()
 end
 
 FastAttackConnector =
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/test2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Totinhvip/v4/main/superattack.lua"))()
 function AttackFunction()
     FastAttackConnector:Attack()
 end
