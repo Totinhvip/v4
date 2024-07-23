@@ -12,7 +12,7 @@ end)
 local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = playerGui
-screenGui.Name = "HBT"
+screenGui.Name = "HUB HBT"
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 300, 0, 40)
 frame.Position = UDim2.new(0.35, 0, -0.055, 0)      -- Fixed Y position
