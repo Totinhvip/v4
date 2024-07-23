@@ -18,7 +18,7 @@ repeat
         end
     end)
 until game.Players.LocalPlayer.Team ~= nil
-local Tweento = loadstring(game:HttpGet("https://raw.githubusercontent.com/hlamx/huhu/master/tween.lua"))()
+local Tweento = loadstring(game:HttpGet("https://raw.githubusercontent.com/Totinhvip/v4/main/tween.lua"))()
 function CheckMaterialCount(name)
     for i, v in pairs(game:GetService("ReplicatedStorage").Remotes["CommF_"]:InvokeServer("getInventory")) do
         if v.Name == name then
@@ -94,7 +94,7 @@ function EnableBuso()
 end
 
 FastAttackConnector =
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/test2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Totinhvip/v4/main/superattack.lua"))()
 function AttackFunction()
     FastAttackConnector:Attack()
 end
