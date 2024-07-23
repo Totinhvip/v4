@@ -1,4 +1,4 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer:FindFirstChild("DataLoaded") and game.CoreGui:FindFirstChild("Banana Cat Hub Btn")
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer:FindFirstChild("DataLoaded") and game.CoreGui:FindFirstChild("Hub Auto Gear V4")
 local animation = Instance.new("Animation")
 getgenv().MainAccount = {
     "bocanhet164",
