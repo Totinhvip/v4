@@ -12,7 +12,7 @@ end)
 local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = playerGui
-screenGui.Name = "Honglamx"
+screenGui.Name = "HBT"
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 300, 0, 40)
 frame.Position = UDim2.new(0.35, 0, -0.055, 0)      -- Fixed Y position
@@ -28,7 +28,7 @@ Text.Position = UDim2.new(0, 0, 0, 0)              -- Fixed Y position
 Text.BackgroundColor3 = Color3.fromRGB(35, 35, 35) -- Use Color3.fromRGB for values between 0 and 255
 Text.TextColor3 = Color3.fromRGB(255, 255, 255)    -- Use Color3.fromRGB for values between 0 and 255
 Text.Font = Enum.Font.SourceSans
-Text.Text = "Hi"                                   -- Add your desired text
+Text.Text = "HBT"                                   -- Add your desired text
 Text.Parent = frame
 -- Set the TextBold property to true for bold text
 Text.TextWrapped = true
